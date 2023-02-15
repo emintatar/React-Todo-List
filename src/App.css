@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 400px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.add-form input,
+.add-form button,
+.clear {
+  padding: 5px;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+}
+
+.add-form input {
+  background: #e1e1e2;
+}
+
+.add-form button,
+.clear {
+  background: #333;
+  color: white;
+  transition: background 0.2s;
+}
+
+.add-form button:hover,
+.clear:hover {
+  background: #444;
+  cursor: pointer;
+}
+
+.list {
+  padding: 20px 0;
+}
+
+.list > div {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.list > div:last-child {
+  border-bottom: 0;
+}
+
+.done {
+  text-decoration: line-through;
+}
